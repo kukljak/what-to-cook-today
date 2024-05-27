@@ -1,0 +1,17 @@
+{
+    "parser": "@babel/eslint-parser",
+    "extends": ["plugin:react/recommended", "prettier"],
+    "plugins": ["prettier"],
+    "rules": {
+        "max-len": [1, {"code": 120, "ignoreComments": true}],
+        "no-unused-vars": 2,
+        "no-const-assign": 2,
+        "no-empty": 2,
+        "no-empty-function": 2,
+        "react/prop-types": 1,
+        "newline-before-return": 2,
+        "prettier/prettier": ["error", {
+            "tabWidth": 4
+          }]
+    }
+}

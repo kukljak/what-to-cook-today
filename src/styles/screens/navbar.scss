@@ -1,0 +1,19 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--color-primary-400);
+
+
+  .logo {
+    margin-left: 3%;
+  }
+
+  .auth {
+    display: flex;
+
+    .login, .register {
+      margin: 20px;
+    }
+  }
+}
