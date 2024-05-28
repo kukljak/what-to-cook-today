@@ -9,7 +9,7 @@ module.exports = {
     entry: "./src/index.js",
     output: {
         filename: "bundle.js",
-        publicPath: "/",
+        publicPath: "/what-to-cook-today",
     },
     module: {
         rules: [
