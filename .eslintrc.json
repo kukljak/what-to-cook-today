@@ -1,7 +1,24 @@
 {
+    "env": {
+      "browser": true,
+      "es2022": true,
+      "node": true
+    },
     "parser": "@babel/eslint-parser",
     "extends": ["plugin:react/recommended", "prettier"],
-    "plugins": ["prettier"],
+    "parserOptions": {
+      "ecmaFeatures": {
+        "jsx": true
+      },
+      "ecmaVersion": "latest",
+      "sourceType": "module"
+    },
+    "settings": {
+      "react": {
+        "version": "999.999.999"
+      }
+    },
+    "plugins": ["react", "prettier"],
     "rules": {
         "max-len": [1, {"code": 120, "ignoreComments": true}],
         "no-unused-vars": 2,
